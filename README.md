@@ -3,9 +3,17 @@
 
 The URL of this Repository can be found [URL](https://github.com/UW-MLGEO/MLGEO2024_TC_Tracks_Intensity).
 
+## Data Source
+
+The data for this project can be retrieved from [raw data](https://rammb-data.cira.colostate.edu/ships/data/AL/lsdiaga_1982_2023_sat_ts_7day.txt). The data can be converted to a .csv file using the SCRIPT. The metadata information can be found in the [Manual](https://rammb-data.cira.colostate.edu/ships/data/ships_predictor_file.pdf)
+
+## Project Objectives
+
+## Description of each notebook
+
 ## Installing the Repository
 ```
-git clone https://github.com/UW-MLGEO/MLGEO2024_adaley.git
+git clone https://github.com/UW-MLGEO/MLGEO2024_TC_Tracks_Intensity.git
 conda env create -f environment.yml
 conda activate mlgeo_dataset
 ```
