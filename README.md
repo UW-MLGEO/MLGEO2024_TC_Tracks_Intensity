@@ -5,7 +5,7 @@ The URL of this Repository can be found [URL](https://github.com/UW-MLGEO/MLGEO2
 
 ## Data Source
 
-The data for this project can be retrieved from [raw data](https://rammb-data.cira.colostate.edu/ships/data/AL/lsdiaga_1982_2023_sat_ts_7day.txt). The data can be converted to a .csv file using the SCRIPT. The metadata information can be found in the [Manual](https://rammb-data.cira.colostate.edu/ships/data/ships_predictor_file.pdf)
+The best track and SHIPS data can be retrieved from  [NCEI-NOAA](https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/v04r01/access/csv/ibtracs.NA.list.v04r01.csv) and  data ca[RAMMB2-CIRA](https://rammb-data.cira.colostate.edu/ships/data/AL/lsdiaga_1982_2023_sat_ts_7day.txt). The data can be converted to a .csv file using the SCRIPT. The metadata information can be found in the [Manual](https://rammb-data.cira.colostate.edu/ships/data/ships_predictor_file.pdf)
 
 ## Project Objectives
 
