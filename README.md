@@ -5,7 +5,7 @@ The URL of this Repository can be found [URL](https://github.com/UW-MLGEO/MLGEO2
 
 ## Data Source
 
-The best track and SHIPS data can be retrieved from  [NCEI-NOAA](https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/v04r01/access/csv/ibtracs.NA.list.v04r01.csv) and [RAMMB2-CIRA](https://rammb-data.cira.colostate.edu/ships/data/AL/lsdiaga_1982_2023_sat_ts_7day.txt) respectively. A compressed verion of the data can be found [here](https://github.com/UW-MLGEO/MLGEO2024_TC_Tracks_Intensity/tree/dev/data/raw). 
+The best track and SHIPS data can be retrieved from  [NCEI-NOAA](https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/v04r01/access/csv/ibtracs.NA.list.v04r01.csv) and [RAMMB2-CIRA](https://rammb-data.cira.colostate.edu/ships/data/AL/lsdiaga_1982_2023_sat_ts_7day.txt) respectively. A compressed verion of the data can be found [here](https://github.com/UW-MLGEO/MLGEO2024_TC_Tracks_Intensity/tree/dev/data/raw). The metadata information for the best track data can be found [here](https://www.ncei.noaa.gov/sites/g/files/anmtlf171/files/2024-07/IBTrACS_version4r01_Technical_Details.pdf)
 
 The data can be converted to a .csv file using the [Notebook](https://github.com/UW-MLGEO/MLGEO2024_TC_Tracks_Intensity/blob/dev/notebooks/Download_Data.ipynb). The metadata information can be found in the [Manual](https://rammb-data.cira.colostate.edu/ships/data/ships_predictor_file.pdf)
 
