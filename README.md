@@ -24,7 +24,13 @@ The repository consist of 4 notebooks. The notebooks performs the following func
 
 - [clean_ibtracs_data.ipynb](https://github.com/UW-MLGEO/MLGEO2024_TC_Tracks_Intensity/blob/dev/notebooks/clean_SHIPS_data.ipynb), cleans up the best track data and produces the [cleaned_best_track_data.csv](https://github.com/UW-MLGEO/MLGEO2024_TC_Tracks_Intensity/blob/dev/data/clean/cleaned_best_track_data.csv) file.
 
-- [clean_SHIPS_data.ipynb](https://github.com/UW-MLGEO/MLGEO2024_TC_Tracks_Intensity/blob/dev/notebooks/clean_SHIPS_data.ipynb), cleans up the SHIPS data and produces the [cleaned_SHIPS_data.csv](https://github.com/UW-MLGEO/MLGEO2024_TC_Tracks_Intensity/blob/dev/data/clean/cleaned_SHIPS_data.csv) file
+- [clean_SHIPS_data.ipynb](https://github.com/UW-MLGEO/MLGEO2024_TC_Tracks_Intensity/blob/dev/notebooks/clean_SHIPS_data.ipynb), cleans up the SHIPS data and produces the [cleaned_SHIPS_data.csv](https://github.com/UW-MLGEO/MLGEO2024_TC_Tracks_Intensity/blob/dev/data/clean/cleaned_SHIPS_data.csv) file.
+
+- [Prepare_AI_Ready_Data.ipynb](https://github.com/UW-MLGEO/MLGEO2024_TC_Tracks_Intensity/blob/dev/notebooks/Prepare_AI_Ready_Data.ipynb), creates the AI Ready Data [ai_ready_SHIPS_data.csv](https://github.com/UW-MLGEO/MLGEO2024_TC_Tracks_Intensity/blob/dev/data/ai_ready/ai_ready_SHIPS_data.csv) file.
+
+- [EDA.ipynb](https://github.com/UW-MLGEO/MLGEO2024_TC_Tracks_Intensity/blob/dev/notebooks/EDA.ipynb), explores the distribution and correlation of features in the AI Ready Data.
+
+- [Dimentionality_Reduction.ipynb](https://github.com/UW-MLGEO/MLGEO2024_TC_Tracks_Intensity/blob/dev/notebooks/EDA.ipynb), explores the distribution and correlation of features in the AI Ready Data.
 
 ## Installing the Repository
 ```
