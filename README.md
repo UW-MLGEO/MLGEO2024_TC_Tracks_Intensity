@@ -63,10 +63,16 @@ To run the notebook:
 - Execute the Clean Up Data code block which removes outliers, converts units, and invalid entries to ```NaNs```
 - Create the dataframe using the Create Dataframe code block. This code block also ensures that the data is cleaned appropriaely
 
-## Licensing
+### Running the Prepare AI Ready Data
 
-I decided to use the MIT licensing because it is:
+- Import the appropriate libraries
+- Set File PATHS and open file with the first code block
+- The notebook provides a list of all the features in the data
+- Execute the next code block to select the most meaningful data
 
-- Simple
-- Premissive
-- Promotes collaboration
+### Running the Exploratry Data Analysis
+
+
+### Running the Dimentionality Reduction
+
+
