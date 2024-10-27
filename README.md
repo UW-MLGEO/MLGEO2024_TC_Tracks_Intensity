@@ -1,7 +1,7 @@
 # Tropical Cyclone Tracking and Intenity (Alton Daley)
 
 
-The URL of this Repository can be found [URL](https://github.com/UW-MLGEO/MLGEO2024_TC_Tracks_Intensity).
+The URL of this Repository can be found [URL](https://github.com/UW-MLGEO/MLGEO2024_TC_Tracks_Intensity). The repository consist of a data, notebook and script directory. The 
 
 ## Data Source
 
@@ -11,7 +11,7 @@ The data can be converted to a .csv file using the [Notebook](https://github.com
 
 ## Project Objectives
 
-The objectives of this project is to :
+Tropical Cyclones are natural disaster that cause severe imapcts to coastal communities. At the coast these impacts are manifested as extreme rain, wind and storm surge. It is important to provide these commuties with accurate storm tracks and intensity (peak winds and minimum sea level pressure) before these storms make landfall. With this in mind the objectives of this project are to :
 -   develop a forecast model to predict Tropical Cyclone Tracks up to 24 hr, 48 hrs and 72 hrs ahead.
 -   Forecsat peak wind speeds and minimum sea level pressure up to 24 hr, 48 hrs and 72 hrs ahead.
 -   Detect the occurence of Rapid Intensification
@@ -26,7 +26,7 @@ The repository consist of 4 notebooks. The notebooks performs the following func
 
 - [clean_SHIPS_data.ipynb](https://github.com/UW-MLGEO/MLGEO2024_TC_Tracks_Intensity/blob/dev/notebooks/clean_SHIPS_data.ipynb), cleans up the SHIPS data and produces the [cleaned_SHIPS_data.csv](https://github.com/UW-MLGEO/MLGEO2024_TC_Tracks_Intensity/blob/dev/data/clean/cleaned_SHIPS_data.csv) file.
 
-- [Prepare_AI_Ready_Data.ipynb](https://github.com/UW-MLGEO/MLGEO2024_TC_Tracks_Intensity/blob/dev/notebooks/Prepare_AI_Ready_Data.ipynb), creates the AI Ready Data [ai_ready_SHIPS_data.csv](https://github.com/UW-MLGEO/MLGEO2024_TC_Tracks_Intensity/blob/dev/data/ai_ready/ai_ready_SHIPS_data.csv) file.
+- [Prepare_AI_Ready_Data.ipynb](https://github.com/UW-MLGEO/MLGEO2024_TC_Tracks_Intensity/blob/dev/notebooks/Prepare_AI_Ready_Data.ipynb), creates the AI Ready Data a csv file [ai_ready_SHIPS_data.csv](https://github.com/UW-MLGEO/MLGEO2024_TC_Tracks_Intensity/blob/dev/data/ai_ready/ai_ready_SHIPS_data.csv) file.
 
 - [EDA.ipynb](https://github.com/UW-MLGEO/MLGEO2024_TC_Tracks_Intensity/blob/dev/notebooks/EDA.ipynb), explores the distribution and correlation of features in the AI Ready Data.
 
@@ -46,17 +46,22 @@ conda activate mlgeo_dataset
 - Running `conda env create -f environment.yml` should create the environment and install the required modules.
 - Select the `mlgeo_dataset` environment
 
+### Running the Data Download Script
+
 To run the notebook:
-- Install Python and create the mlgeo_dataset conda environment.
-- Run cells in the order given (Ensure that you change the PATH to directory storing the PNG file)
+- Import the appropriate libraries 
+- Run the Reading and Extracting Data code block, which will extract the SHIPS and IBTracs data.
+- The data will be downloaded to your current directory. Move the data file to the ```data\raw``` directory.
 
-## Favorite Earth Sciences Topics
+### Running the Data Cleaning Script
 
-- Renewable Energy Sources
-- Tropical Cyclones
-- Air-Sea Interaction
-- Coupled Atmosphere-Wave-Ocean Modelling
-- Coastal Environment and Climate Change
+- Import the appropriate libraries 
+- Run the Reading Data code block to open the ```lsdiaga_1982_2022_sat_ts_5day.txt``` file.
+- Execute the next code block, which consists of a series of functions to help extract the data of interest. 
+- Run the next code block to create empty arrays for storing the data of interest.
+- Extract the data using the functions from the Function code block.
+- Execute the Clean Up Data code block which removes outliers, converts units, and invalid entries to ```NaNs```
+- Create the dataframe using the Create Dataframe code block. This code block also ensures that the data is cleaned appropriaely
 
 ## Licensing
 
