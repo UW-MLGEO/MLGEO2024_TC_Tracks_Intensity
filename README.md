@@ -71,8 +71,24 @@ To run the notebook:
 - Execute the next code block to select the most meaningful data
 
 ### Running the Exploratry Data Analysis
+- Import the appropriate libraries
+- Ensure file paths are set apprpriately
+- Investigate basic statistics of the data (min, max, mead, stdev) using the 4th code block
+- Execute the next code block to visualize the distribution of the features
+- Investigate the correlation of features by executing the final two code blocks
 
 
 ### Running the Dimentionality Reduction
+
+- Import the appropriate libraries
+- Ensure file paths are set apprpriately
+- Visualize the firstfew columns
+- Remove unwanted data with the next code block
+- Perform PCA analysis with the next 3 code block 
+    - The first investigates all the data and the remaining two is specific to storm intensity and TC tracking
+- Perform the t-Distributed Stochastic Neighbor Embedding (t-Distributed Stochastic Neighbor) with the remaining script ()
+
+
+
 
 
