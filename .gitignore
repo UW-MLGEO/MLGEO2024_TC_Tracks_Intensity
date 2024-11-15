@@ -1,1 +1,3 @@
 notebooks/catboost_info/
+notebooks/*.pkl
+notebooks/mlruns/
