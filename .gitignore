@@ -1,4 +1,4 @@
 notebooks/catboost_info/
 notebooks/*.pkl
 notebooks/mlruns/
-/home/disk/orca/adaley17/MLGEO2024_TC_Tracks_Intensity/notebooks/Model_Training_Assessment_orig.ipynb
+/Model_Training_Assessment_orig.ipynb
