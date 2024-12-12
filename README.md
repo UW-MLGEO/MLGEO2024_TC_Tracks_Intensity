@@ -12,8 +12,8 @@ The data can be converted to a .csv file using the [Notebook](https://github.com
 ## Project Objectives
 
 Tropical Cyclones are natural disaster that cause severe imapcts to coastal communities. At the coast these impacts are manifested as extreme rain, wind and storm surge. It is important to provide these commuties with accurate storm tracks and intensity (peak winds and minimum sea level pressure) before these storms make landfall. With this in mind the objectives of this project are to :
--   develop a forecast model to predict Tropical Cyclone Tracks up to 24 hr, 48 hrs and 72 hrs ahead.
--   Forecsat peak wind speeds and minimum sea level pressure up to 24 hr, 48 hrs and 72 hrs ahead.
+-   develop a forecast model to predict Tropical Cyclone Tracks up to 24 hr.
+-   Forecsat peak wind speeds up to 24 hrs ahead.
 -   Detect the occurence of Rapid Intensification
 
 ## Description of each notebook
