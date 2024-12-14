@@ -14,7 +14,6 @@ The data can be converted to a .csv file using the [Notebook](https://github.com
 Tropical Cyclones are natural disaster that cause severe imapcts to coastal communities. At the coast these impacts are manifested as extreme rain, wind and storm surge. It is important to provide these commuties with accurate storm tracks and intensity (peak winds and minimum sea level pressure) before these storms make landfall. With this in mind the objectives of this project are to :
 -   develop a forecast model to predict Tropical Cyclone Tracks up to 24 hr.
 -   Forecsat peak wind speeds up to 24 hrs ahead.
--   Detect the occurence of Rapid Intensification
 
 ## Description of each notebook
 
@@ -31,6 +30,24 @@ The repository consist of 4 notebooks. The notebooks performs the following func
 - [EDA.ipynb](https://github.com/UW-MLGEO/MLGEO2024_TC_Tracks_Intensity/blob/dev/notebooks/EDA.ipynb), explores the distribution and correlation of features in the AI Ready Data.
 
 - [Dimentionality_Reduction.ipynb](https://github.com/UW-MLGEO/MLGEO2024_TC_Tracks_Intensity/blob/dev/notebooks/EDA.ipynb), explores the distribution and correlation of features in the AI Ready Data.
+
+### Classic Machine Learning
+
+- [Cluster_Analysis.ipynb](https://github.com/UW-MLGEO/MLGEO2024_TC_Tracks_Intensity/blob/master/notebooks/Cluster_Analysis.ipynb), using cluster analysis to idenify storm genesis location in the Atlantic Ocean.
+
+- [Model_Training_Assessment.ipynb](https://github.com/UW-MLGEO/MLGEO2024_TC_Tracks_Intensity/blob/master/notebooks/Model_Training_Assessment.ipynb), using cluster analysis to idenify storm genesis location in the Atlantic Ocean.
+
+- [Computation_Time_Analysis.ipynb](https://github.com/UW-MLGEO/MLGEO2024_TC_Tracks_Intensity/blob/master/notebooks/Computational_Time_Analysis.ipynb), comparing trade off between time taken to run the model and the accuracy.
+
+### Deep Learning
+
+- [Model_Benchmarking_Against_CML.ipynb](https://github.com/UW-MLGEO/MLGEO2024_TC_Tracks_Intensity/blob/master/notebooks/Model_Benchmarking_Against_CML.ipynb), comparing classic and deep learning.
+
+- [Model_Architecture_Exploration.ipynb](https://github.com/UW-MLGEO/MLGEO2024_TC_Tracks_Intensity/blob/master/notebooks/Model_Architecture_Exploration.ipynb), explores different deep learning architecture to solve the issue above.
+
+
+
+
 
 ## Installing the Repository
 ```
